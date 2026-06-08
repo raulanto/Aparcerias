@@ -1,0 +1,13 @@
+{
+  "showLineNumber": false,
+  "livePreview": false,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showInlineTitle": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
+}

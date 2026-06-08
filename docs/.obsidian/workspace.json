@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "a383f3105ecc94c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "faf6919f34455767",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72ba32904d31562b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_DASHBOARD.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "01_DASHBOARD"
+            }
+          },
+          {
+            "id": "dfe238e0dc070d8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e2a8a99cf496480",
+    "type": "split",
+    "children": [
+      {
+        "id": "9181fadd5acd4b23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9909783ed47009f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "5481bd027804c671",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "da202cd004b9f5a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.5
+  },
+  "right": {
+    "id": "b3e306d5ce5ac302",
+    "type": "split",
+    "children": [
+      {
+        "id": "7851bf7e1fe1a02b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4e9819367c01927",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_INDEX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 00_INDEX"
+            }
+          },
+          {
+            "id": "767921c7ffd842f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_INDEX.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 00_INDEX"
+            }
+          },
+          {
+            "id": "29df805236b9507c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "802fb5e9cdbe1598",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_INDEX.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 00_INDEX"
+            }
+          },
+          {
+            "id": "f0b48b2603041f76",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "3df5b68595e222de",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 397.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "72ba32904d31562b",
+  "lastOpenFiles": [
+    "02_REGISTRO_GANADO.md",
+    "03_CONTRATOS.md",
+    "04_COMPRA_VENTA.md",
+    "05_FINANZAS.md",
+    "06_APARCEROS.md",
+    "07_REPORTES.md",
+    "00_INDEX.md",
+    "01_DASHBOARD.md",
+    "Sin título.md",
+    "Sin título 1.md",
+    "Sin título 3.md",
+    "Angular/Angular 20 cli.md",
+    "generar-tramites/paylod.md",
+    "generar-tramites/catalogos/fondeo.md",
+    "generar-tramites/catalogos",
+    "generar-tramites",
+    "Untitled",
+    "Pasted image 20251017215721.png",
+    "Pasted image 20251017220101.png",
+    "Sin título 2.md",
+    "Sin título 4.md",
+    "Untitled Kanban.md",
+    "proyectos/Sistema contable/Sin título 1.md",
+    "proyectos/Sistema contable/Sin título.md",
+    "proyectos/Django admin con unfold/Diagrama.md",
+    "Blog/Fastapi/Construyendo.md",
+    "Blog/sql joins/Sin título.md",
+    "Blog/Vue use/Sin título.md",
+    "Blog/Sistema de Base de Datos/Guía de Implementación y Mejores Prácticas.md",
+    "Angular/Componentes.md",
+    "Angular/Sin título.md",
+    "proyectos/Calculadora de diviciones",
+    "rust",
+    "proyectos/juegos gameCastle",
+    "Blog/restrucuturacion de bd",
+    "free lance/punto de venta",
+    "free lance",
+    "proyectos/bd armando",
+    "Blog/Captura de pantalla 2025-10-11 192123.png",
+    "Django/Django MTV/Funcionamiento MTV de Django.canvas",
+    "Pasted Image 20251012142404_824.png",
+    "Pasted Image 20251009165313_747.png",
+    "Pasted Image 20251009165335_984.png",
+    "Pasted Image 20251009172309_919.png",
+    "proyectos/Sitema dinamico de Filtros/Filtros.canvas",
+    "proyectos/gestor de documentos/Sin título.canvas",
+    "Sin título.canvas",
+    "Angular/Untitled Diagram.svg",
+    "Untitled Diagram.svg"
+  ]
+}
