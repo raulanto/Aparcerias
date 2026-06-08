@@ -1,5 +1,18 @@
 
 
+<p align="center">
+    <a href="https://github.com/raulanto/Aparcerias" target="_blank">
+        <img src="icon.svg" height="100px">
+    </a>
+    <h1 align="center">Aparceria sofware</h1>
+    <br>
+</p>
+
+**AparceríaPro** es una plataforma web diseñada para digitalizar y profesionalizar la administración del negocio ganadero en México. Atiende específicamente las necesidades de productores que operan bajo esquemas de **aparcería pecuaria**, donde la gestión de contratos, inventario y finanzas es compleja y actualmente se realiza en papel o sin ningún control formal.
+
+
+---
+
 Esta guía detalla el proceso paso a paso para configurar y ejecutar un proyecto Django existente en tu entorno local a partir de su archivo `requirements.txt`.
 
 ## Prerrequisitos
