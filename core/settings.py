@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+from django.templatetags.static import static
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -26,7 +26,6 @@ SECRET_KEY = 'django-insecure-f04l7uiknd=f)f-nvpr=4d^-+!k%!+uw3$2h+kuw%#n$ajg!ud
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -78,7 +77,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'core.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
@@ -88,7 +86,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
@@ -108,7 +105,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
@@ -120,12 +116,58 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
+MEDIA_ROOT = BASE_DIR / "media"
+
+MEDIA_URL = "/media/"
 
 UNFOLD = {
     "SITE_TITLE": "Aparceria",
     "SITE_HEADER": "Aparceria sistema",
     "SITE_SUBHEADER": "",
+    "COLORS": {
+        "primary": {
+            "50": "239 246 255",
+            "100": "219 234 254",
+            "200": "191 219 254",
+            "300": "147 197 253",
+            "400": "96 165 250",
+            "500": "59 130 246",
+            "600": "37 99 235",
+            "700": "29 78 216",
+            "800": "30 64 175",
+            "900": "30 58 138",
+            "950": "23 37 84",
+        },
+        "base": {
+            "50": "oklch(98.5% 0 0)",  # slate-50
+            "100": "oklch(96.7% 0.001 286.375)",  # slate-100
+            "200": "oklch(92% 0.004 286.32)",  # slate-200
+            "300": "oklch(87.1% 0.006 286.286)",  # slate-300
+            "400": "oklch(70.5% 0.015 286.067)",  # slate-400
+            "500": "oklch(55.2% 0.016 285.938)",  # slate-500
+            "600": "oklch(44.2% 0.017 285.786)",  # slate-600
+            "700": "oklch(37% 0.013 285.805)",  # slate-700
+            "800": "oklch(27.4% 0.006 286.033)",  # slate-800
+            "900": "oklch(21% 0.006 285.885)",  # slate-900
+            "950": "oklch(14.1% 0.005 285.823)",  # slate-950
+        },
+        "font": {
+            "subtle-light": "var(--color-base-500)",  # text-base-500
+            "subtle-dark": "var(--color-base-400)",  # text-base-400
+            "default-light": "var(--color-base-600)",  # text-base-600
+            "default-dark": "var(--color-base-300)",  # text-base-300
+            "important-light": "var(--color-base-900)",  # text-base-900
+            "important-dark": "var(--color-base-100)",  # text-base-100
+        },
+    },
 
+    "STYLES": [
+        lambda request: static("css/styles.css"),
+    ],
 }
