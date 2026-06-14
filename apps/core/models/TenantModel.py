@@ -7,8 +7,8 @@ class TenantModel(BaseModel):
     Clase abstracta obligatoria para todos los modelos del sistema operativos.
     Garantiza que cada registro de ganado o finanzas esté etiquetado con su Tenant.
     """
-    empresa = models.ForeignKey(
-        'compañias.Empresa',
+    company = models.ForeignKey(
+        'companies.Company',
         on_delete=models.PROTECT,
         help_text="Empresa dueña de este registro de datos"
     )
