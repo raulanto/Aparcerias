@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.core',
-    "apps.companies"
+    "apps.companies",
+    "apps.partners"
 ]
 
 MIDDLEWARE = [
@@ -98,7 +99,9 @@ DATABASES = {
 }
 
 DATABASE_ROUTERS = ['config.routers.ModuloRouter']
+# settings.py
 
+AUTH_USER_MODEL = 'partners.Sharecropper'
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
