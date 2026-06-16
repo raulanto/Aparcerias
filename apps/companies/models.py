@@ -29,7 +29,7 @@ class Company(BaseModel):
     animal_limit = models.IntegerField(default=100, help_text="Límite permitido por el plan")
 
     class Meta:
-        db_table = 'Company'
+        db_table = '"companies"."company"'
         verbose_name = 'Empresa'
         verbose_name_plural = 'Empresas'
 
