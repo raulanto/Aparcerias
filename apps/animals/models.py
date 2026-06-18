@@ -34,17 +34,16 @@ specie = models.CharField(max_length=50, choices=Species.choices)
 breed = models.CharField(max_length=50, choices=Breeds.choices)
 sex = models.CharField(max_length=50, choices=Sexs.choices)
 birth_date = models.DateField()
-initial_weight = models.DecimalField(max_digits=10, decimal_places=2)
-current_weight = models.DecimalField(max_digits=10, decimal_places=2)
 description = models.TextField(blank=True, null=True)
-#procedencia: relacion con tabla de Parcelas "Parcels"
-#assigned_parcel: lacion con tabla de Aparceros "Sharecroppers"
 #contract:  relacion con tabla de Contratos "Contracts"
-#health_check: relacion con Revision sanitaria "HealthCheck"
 ingression_date = models.DateField(auto_now_add=True)
 buy_price = models.DecimalField(max_digits=10, decimal_places=2)
 current_price = models.DecimalField(max_digits=10, decimal_places=2)
 #picture: Identificacion visual(URL)
 notes = models.TextField(blank=True, null=True)
 
+group_id = models.IntegerField() #Relacion con tabla de Grupos "Groups"
+initial_weight_id = models.DecimalField(max_digits=10, decimal_places=2)
+current_weight_id = models.DecimalField(max_digits=10, decimal_places=2)
+health_check_id = models.IntegerField() #Relacion con Revision sanitaria "HealthCheck"
 
