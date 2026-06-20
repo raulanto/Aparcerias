@@ -55,7 +55,7 @@ Debes activar el entorno virtual antes de proceder con la instalación de paquet
 **En Windows (PowerShell):**
 
 ```powershell
-.\\venv\\Scripts\\Activate.ps1
+      
 ```
 
 **En Windows (CMD / Símbolo del sistema):**
