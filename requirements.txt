@@ -14,3 +14,4 @@ requests==2.34.2
 sqlparse==0.5.5
 urllib3==2.7.0
 yarg==0.1.10
+#deja de hablar mmdas ==1.9.0
