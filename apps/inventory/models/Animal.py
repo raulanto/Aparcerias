@@ -46,4 +46,3 @@ group_id = models.IntegerField() #Relacion con tabla de Grupos "Groups"
 initial_weight_id = models.DecimalField(max_digits=10, decimal_places=2)
 current_weight_id = models.DecimalField(max_digits=10, decimal_places=2)
 health_check_id = models.IntegerField() #Relacion con Revision sanitaria "HealthCheck"
-
