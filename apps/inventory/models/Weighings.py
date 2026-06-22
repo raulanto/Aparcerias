@@ -11,3 +11,7 @@ class Weighing(BaseModel):
         on_delete=models.CASCADE,
         related_name="weighings",
     )
+    class Meta:
+        db_table = '"inventory"."weighing"'
+        verbose_name = 'Weighing'
+        verbose_name_plural = 'Weighings'

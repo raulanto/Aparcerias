@@ -11,4 +11,9 @@ class Group(BaseModel):
         on_delete=models.PROTECT,
         related_name="inventory_groups",
     )
+
+    class Meta:
+        db_table = '"inventory"."group"'
+        verbose_name = 'Group'
+        verbose_name_plural = 'Groups'
     
