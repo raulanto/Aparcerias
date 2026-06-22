@@ -1,2 +1,1 @@
 from .Sharecropper import Sharecropper
-from .SharecropperManager import SharecropperManager
