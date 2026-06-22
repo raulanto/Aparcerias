@@ -5,3 +5,9 @@ class Weighing(BaseModel):
     date = models.DateField()
     weight_kg = models.DecimalField(max_digits=10, decimal_places=2)
     daily_earnings = models.DecimalField(max_digits=10, decimal_places=2)
+
+    animal = models.ForeignKey(
+        "inventory.Animal",
+        on_delete=models.CASCADE,
+        related_name="weighings",
+    )

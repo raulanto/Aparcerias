@@ -10,3 +10,9 @@ class MedicalCheckup(BaseModel):
     status = models.CharField(max_length=50, choices=Status.choices)
     treatment = models.TextField(blank=True, null=True)
     veterian_id = models.IntegerField() #Relacion
+
+animal = models.ForeignKey(
+        "inventory.Animal",
+        on_delete=models.CASCADE,
+        related_name="medical_checkups",
+    )
