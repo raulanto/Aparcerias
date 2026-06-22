@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'apps.core',
     "apps.companies",
     "apps.partners",
-    "apps.Contracts",
 ]
 
 MIDDLEWARE = [
