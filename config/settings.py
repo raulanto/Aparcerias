@@ -132,7 +132,7 @@ DATABASES = {
     }
 }
 
-DATABASE_ROUTERS = ['config.routers.ModuloRouter']
+# DATABASE_ROUTERS = ['config.routers.ModuloRouter']
 # settings.py
 
 AUTH_USER_MODEL = 'partners.Sharecropper'
