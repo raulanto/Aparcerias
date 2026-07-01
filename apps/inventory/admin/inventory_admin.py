@@ -83,7 +83,7 @@ class WeighingAdmin(BaseSaaSAdmin):
 
 @admin.register(MedicalCheckup)
 class MedicalCheckupAdmin(BaseSaaSAdmin):
-    list_display = ('animal', 'date', 'status', 'veterian_id', 'created_at')
+    list_display = ('animal', 'date', 'status', 'veterinarian_id', 'created_at')
     list_display_links = ('animal', 'date')
     search_fields = ('animal__id', 'animal__group__name', 'treatment')
     list_filter = (('status', ChoicesDropdownFilter), 'date', 'animal__group')
@@ -92,7 +92,7 @@ class MedicalCheckupAdmin(BaseSaaSAdmin):
     fieldsets = (
         (_('Revision sanitaria'), {
             'classes': ('tab',),
-            'fields': ('animal', 'date', 'status', 'treatment', 'veterian_id'),
+            'fields': ('animal', 'date', 'status', 'treatment', 'veterinarian_id'),
         }),
         (_('Auditoria del sistema'), {
             'classes': ('collapse',),
