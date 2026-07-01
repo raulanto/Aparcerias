@@ -19,7 +19,7 @@ class MedicalCheckup(BaseModel):
         related_name="medical_checkups",
     )
 
-    class Meta:
+    class Meta: # type: ignore
         db_table = '"inventory"."medical_checkup"'
-        verbose_name = 'Medical Checkup'
-        verbose_name_plural = 'Medical Checkups'
+        verbose_name = 'Revision Médica'
+        verbose_name_plural = 'Revisiones Médicas'

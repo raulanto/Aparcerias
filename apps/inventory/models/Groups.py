@@ -12,8 +12,8 @@ class Group(BaseModel):
         related_name="inventory_groups",
     )
 
-    class Meta:
+    class Meta: # type: ignore
         db_table = '"inventory"."group"'
-        verbose_name = 'Group'
-        verbose_name_plural = 'Groups'
+        verbose_name = 'Grupo'
+        verbose_name_plural = 'Grupos'
     

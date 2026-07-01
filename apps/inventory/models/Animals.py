@@ -48,8 +48,8 @@ class Animal(BaseModel):
         on_delete=models.PROTECT,
         related_name="animals",
     )
-    class Meta:
+    class Meta: # type: ignore
         db_table = '"inventory"."animal"'
         verbose_name = 'Animal'
-        verbose_name_plural = 'Animals'
+        verbose_name_plural = 'Animales'
     
