@@ -1,0 +1,17 @@
+from django.db import models
+from apps.core.models import BaseModel
+
+class Weighing(BaseModel):
+    date = models.DateField()
+    weight_kg = models.DecimalField(max_digits=10, decimal_places=2)
+    daily_earnings = models.DecimalField(max_digits=10, decimal_places=2)
+
+    animal = models.ForeignKey(
+        "inventory.Animal",
+        on_delete=models.CASCADE,
+        related_name="weighings",
+    )
+    class Meta: # type: ignore
+        db_table = '"inventory"."weighing"'
+        verbose_name = 'Pesaje'
+        verbose_name_plural = 'Pesajes'

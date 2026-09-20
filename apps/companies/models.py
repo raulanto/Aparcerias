@@ -34,4 +34,4 @@ class Company(BaseModel):
         verbose_name_plural = 'Empresas'
 
     def __str__(self):
-        return f"{self.trade_name}" (f"{self.get_subscription_status_display()}")
+        return f"{self.trade_name} ({self.get_subscription_status_display()})"
